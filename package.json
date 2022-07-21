@@ -1,0 +1,30 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Una API REST Basica con MySQL",
+  "main": "index.js",
+  "engines":{
+    "node":"12.21.0"
+  },
+
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Irving Hdz",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.18.1",
+    "mysql": "2.18.1",
+    "nodemon": "2.0.9"
+  },
+  "devDependencies": {
+    "cors": "2.8.5",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.9",
+    "morgan": "^1.10.0"
+  }
+}
